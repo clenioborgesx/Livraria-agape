@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Ágape</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        #dailyVerse {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #verseText {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #verseReference {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            li {
+                float: none;
+                width: 100%;
+            }
+
+            #dailyVerse {
+                padding: 10px;
+            }
+
+            #verseText {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #icon {
+                height: 35px;
+                bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Livraria Ágape</h1>
+    </header>
+    <ul>
+        <li><a href="biblias.html">Bíblias</a></li>
+        <li><a href="#">Recomendações</a></li>
+        <li><a href="versiculo.html">Versículos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="igreja.html">Visite nossa igreja</a></li>
+    </ul>
+    <a href="https://wa.me/5585989821473?text=Quero%20saber%20sobre%20os%20produtos">
+        <img id="icon" src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Whatsapp-icon.png" alt="icon whatsapp">
+    </a>
+</body>
+</html>
